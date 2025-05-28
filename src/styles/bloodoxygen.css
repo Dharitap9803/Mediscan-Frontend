@@ -1,0 +1,91 @@
+.oxygen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.oxygen-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.oxygen-btn-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  justify-content: center;
+  width: 100%;
+}
+
+.oxygen-btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.oxygen-btn-default {
+  background-color: #007bff;
+  color: white;
+}
+
+.oxygen-btn-default:hover {
+  background-color: #0056b3;
+}
+
+.oxygen-btn-outline {
+  border: 2px solid #007bff;
+  color: #007bff;
+  background: transparent;
+}
+
+.oxygen-btn-outline:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.oxygen-chart-wrapper {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.oxygen-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.oxygen-card-content {
+  padding: 12px;
+}
+
+.oxygen-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.oxygen-info-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}

@@ -1,0 +1,32 @@
+.img{
+    size: auto;
+    width: 100%;
+    height: 650px;
+    position: fixed;
+    
+}
+
+.button {
+    background-color: black;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.left-btn, .right-btn
+{
+    position: absolute;
+    top: 500px; 
+    background-color: black;
+    color: blueviolet;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.left-btn{
+    left: 5px;
+}
+
+.right-btn{
+    right: 5px;
+}

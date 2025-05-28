@@ -1,0 +1,26 @@
+.loginSection.signUpSection {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: right; 
+    align-items: flex-start;  
+    min-height: 100vh; 
+  
+}
+.signUpSection .loginBox{background: #e4e4e4 !important;position: relative;z-index: 100;padding: 15px 5px !important;margin-top: 0px !important;  }
+.signUpSection .loginBox .wrapper{border: 0px !important;background: transparent!important;padding-top: 0px !important;}
+.signUpSection .loginBox .form-group {
+    margin-bottom: 10px !important;  /* Reduce gap between input fields */
+}
+.signUpSection .part1{padding-left: 100px;padding-right: 100px;}
+.signUpSection .part1 h1{font-size: 50px;font-weight: 800;}
+.signUpSection .part1 p{font-size: 18px;font-weight: 500;}
+
+.btn-blue{background: #0858f7 !important;font-size: 14px !important;font-weight: 600 !important;color: #fff !important; text-transform: capitalize !important; border-radius: 5px !important;border-radius: 8px !important;}
+
+.btn-lg{padding: 5px 25px !important;}
+.btn-big{padding: 10px 25px !important;font-size: 16px !important;}
+.btn-big svg{font-size: 25px !important;margin-left: 7px;}
+
+
+
+h1,h2,h3,h4,h5,h6,p{color: #403e57;}

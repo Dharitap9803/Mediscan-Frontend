@@ -1,0 +1,675 @@
+.diabetes-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.data-card {
+  width: 1400px;
+  max-width: 100%;
+  border-radius: 0.3125rem !important;
+  height: 9.375rem;
+  background-color: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(229, 234, 246));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0.9375rem;
+  height: 300px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.diabetes-heading {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.diabetes-form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #34495e;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  border: 2px solid #e0e6ed;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+  background-color: white;
+  color: #2c3e50;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form-control-input {
+  flex: 2;
+}
+
+.form-control-select {
+  flex: 1;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.button-default {
+  background-color: #3498db;
+  color: white;
+  border: 2px solid #3498db;
+}
+
+.button-default:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.button-outline:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+.button-active {
+  background-color: #3498db;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.diabetes-results {
+  padding: 1.5rem;
+}
+
+.diabetes-content {
+  padding: 1.5rem;
+}
+
+.diabetes-section-title {
+  color: #2c3e50;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3498db;
+}
+
+.diabetes-info-card {
+  background-color: white; /* Changed from #e6f2ff to white */
+  border-radius: 12px; /* Optional: Add rounded corners for consistency */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  padding: 1.5rem; /* Optional: Add padding for better spacing */
+
+}
+
+.diabetes-info-card ul {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.diabetes-info-card ul li {
+  padding: 0.25rem 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+/* BMI Category Visualization */
+.bmi-category {
+  margin-top: 0.75rem;
+}
+
+.bmi-scale {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.bmi-scale-bar {
+  display: flex;
+  height: 10px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px 0;
+  position: relative;
+}
+
+.bmi-bar {
+  height: 100%;
+}
+
+.bmi-bar-underweight {
+  width: 25%;
+  background-color: #3498db; /* Blue */
+}
+
+.bmi-bar-normal {
+  width: 25%;
+  background-color: #2ecc71; /* Green */
+}
+
+.bmi-bar-overweight {
+  width: 25%;
+  background-color: #f39c12; /* Orange */
+}
+
+.bmi-bar-obese {
+  width: 25%;
+  background-color: #e74c3c; /* Red */
+}
+
+.bmi-scale-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #7f8c8d;
+}
+
+.bmi-scale-markers {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 25%;
+}
+
+.bmi-marker {
+  font-size: 0.7rem;
+  color: #7f8c8d;
+  position: relative;
+}
+
+.bmi-marker::before {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 1px;
+  background-color: #7f8c8d;
+  bottom: -7px;
+  left: 50%;
+}
+
+.bmi-marker-underweight {
+  position: absolute;
+  left: 25%;
+}
+
+.bmi-marker-normal {
+  position: absolute;
+  left: 50%;
+}
+
+.bmi-marker-overweight {
+  position: absolute;
+  left: 75%;
+}
+
+.bmi-label {
+  width: 25%;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/* BMI Indicator */
+.bmi-indicator {
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  height: 20px;
+  background-color: #2c3e50;
+  border-radius: 5px;
+  transform: translateX(-50%);
+}
+
+/* For the charts and buttons like in StepTracker */
+.diabetes-button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.diabetes-chart-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Data Card Container */
+.diabetes-card-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  gap: 1rem;
+}
+
+.diabetes-card1,
+.diabetes-card2 {
+  max-width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 45rem;
+  overflow-y: auto;
+}
+
+.diabetes-card1 .diabetes-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.diabetes-card1 .diabetes-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.diabetes-form {
+  width: 100%;
+}
+
+.diabetes-form .form-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.form-control,
+.height-input,
+.height-unit-select,
+.input-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.height-input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.height-input {
+  flex: 2;
+}
+
+.height-unit-select {
+  flex: 1;
+}
+
+.analyze-button {
+  width: 100%;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.analyze-button:hover {
+  background-color: #c82333;
+}
+
+.diabetes-card2 .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.diabetes-card2 .card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional styles for the informational card */
+.card-info {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+}
+
+.card-instructions {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-instructions li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+/* Results section styling */
+.result-section {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* BMI Scale styling */
+.bmi-scale {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.bmi-scale-bar {
+  display: flex;
+  height: 10px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin: 0.5rem 0;
+}
+
+.bmi-bar {
+  height: 100%;
+  flex: 1;
+}
+
+.bmi-bar-underweight {
+  background-color: #3498db; /* Blue */
+}
+
+.bmi-bar-normal {
+  background-color: #2ecc71; /* Green */
+}
+
+.bmi-bar-overweight {
+  background-color: #f39c12; /* Orange */
+}
+
+.bmi-bar-obese {
+  background-color: #e74c3c; /* Red */
+}
+
+.bmi-indicator {
+  position: absolute;
+  width: 6px;
+  height: 14px;
+  background-color: #000;
+  top: -2px;
+  transform: translateX(-3px);
+  border-radius: 3px;
+}
+
+.bmi-scale-markers {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-size: 0.75rem;
+}
+
+.bmi-scale-labels {
+  display: flex;
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.bmi-label {
+  flex: 1;
+  text-align: center;
+}
+
+/* Steps suggestion styling */
+.steps-suggestion {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.steps-progress {
+  margin: 1rem 0;
+}
+
+.steps-progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.steps-progress-current {
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 5px;
+}
+
+.steps-suggestion-message {
+  line-height: 1.5;
+}
+
+/* Metrics info styling */
+.metrics-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.metric-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 1rem;
+}
+
+.metric-section:last-child {
+  border-bottom: none;
+}
+
+.metric-section h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.metric-section ul {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.metric-section li {
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .diabetes-card-container {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .diabetes-card1, .diabetes-card2 {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+  }
+}
+
+/* Additional button styling for the diabetes section */
+.button {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-default {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.button-outline {
+  background-color: transparent;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.button-active {
+  background-color: #a71d2a;
+  border-color: #a71d2a;
+}
+
+/* Card component styling */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+/* Icons styling */
+.card-info svg {
+  color: #dc3545;
+  margin-right: 0.5rem;
+}
+
+/* Flex utility classes */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+/* Print and Share Button Styling */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.action-button {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.print-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.print-button:hover {
+  background-color: #0056b3;
+}
+
+.share-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.share-button:hover {
+  background-color: #218838;
+}
+
+/* Hide buttons during print */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
