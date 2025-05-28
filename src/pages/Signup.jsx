@@ -46,7 +46,7 @@ const Signup = () => {
         }
     
         try {
-            const response = await axios.post('http://localhost:3001/api/auth/signup', formData);
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}api/auth/signup`, formData);
     
             // Check if the response status is in the range of successful responses
             if (response.status >= 200 && response.status < 300) {
