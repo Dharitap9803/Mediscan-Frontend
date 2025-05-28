@@ -40,7 +40,7 @@ const Upload = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/upload",
+        `${import.meta.env.VITE_BACKEND_URL}api/upload`,
         formData,
         {
           headers: {

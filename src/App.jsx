@@ -57,7 +57,7 @@ function ProtectedRoute({ element }) {
   
       try {
         const res = await axios.get(
-          `${import.meta.env.VITE_BACKEND_URL}/api/health-data/${user._id}`
+          `${import.meta.env.VITE_BACKEND_URL}api/health-data/${user._id}`
         );
   
         setalldata(res.data);
