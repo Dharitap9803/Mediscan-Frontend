@@ -9,7 +9,6 @@ import { IoEye, IoEyeOff } from "react-icons/io5";
 import googleIcon from '../assets/images/google.webp';
 import facebookicon from '../assets/images/facebook.png';
 import {UserContext} from '../context/UserContext'; 
-
 const Login = () => {
     const [isShowPassword, setisShowPassword] = useState(false);
     const [email, setEmail] = useState('');
@@ -20,7 +19,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:3001/api/auth/signin', { email, password });
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/auth/signin`, { email, password });
             console.log(response.data);
 
             // Handle successful login
