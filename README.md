@@ -137,23 +137,41 @@ MONGO_URI="mongodb://localhost:27017/Dharita"
 Code Explanation
 Frontend
 Home Page: Displays a welcome message along with an overview of the Health Tracker features.
+
 User Profile Page: Allows users to view and update their personal information.
+
 Dashboard Page: Displays an overview of key health metrics using circular progress bars and health cards.
+
 Step Tracker Page: Shows user's step data for daily, weekly, and monthly periods.
+
 Heartbeat Rate Page: Monitors pulse readings with daily/weekly/monthly graphs.
+
 Sleep Hours Page: Tracks sleep duration trends with detailed analysis.
+
 Stress Level Page: Displays stress patterns and critical highs using visual graphs.
+
 Calorie Burn Page: Shows calories burned over time and includes recommendations for improved fitness planning.
+
 Blood Pressure Page: Accepts systolic/diastolic input with contextual data like sleep and stress.
+
 Diabetes Page: Takes age, height, weight, and sugar levels to calculate BMI and categorize diabetes stage.
+
 Weight & Height Page: Tracks BMI, weight fluctuation, and health classification.
+
 Blood Oxygen Page: Analyses oxygen saturation levels with visual patterns.
+
 Data Analysis Page: Provides combined summary of all tracked metrics with graphs.
+
 Upload Page: Allows users to manually upload text-based or structured input data.
+
 Medical Report Upload & Analyzer Page: Users can upload scanned medical reports in image or PDF format.
+
 Profile Page: Displays user's personal, general, and medical details with editable sections.
+
 Contact Us Page: Offers direct communication for user queries, website feedback, or issues.
+
 Authentication System: Only registered users can access all features; new users can access limited pages.
+
 Logout Feature: Registered users can securely log out to end their session and protect data access.
 
 Backend
@@ -169,12 +187,16 @@ Actions: Each row has buttons for deleting and disabling user accounts.
 
 Health Data Management
 Health Data List: Displays a list of all health data with filters for category, status, and date.
+
 Update Status: Allows admins to change the status of health data (e.g., pending, in-progress, resolved).
+
 Detailed View: Provides a detailed view of each health data, including images and tags.
 
 Dashboard
 Reports per Month: A bar graph displaying the number of reports per month for the past 6 months.
+
 Reports by Type: A doughnut graph displaying the distribution of report types (e.g., Blood Pressure, Diabetes).
+
 Case Status: Three small sections (green, yellow, red) displaying the number of unresolved cases (red), cases under progress (yellow), and resolved cases (green).
 
 About
