@@ -83,7 +83,7 @@ npm install
 npm install
 
 3. Create a .env file in the frontend directory and add the following environment variables:
-Copy
+4. 
 VITE_BACKEND_URL="Your backend url"
 
 VITE_FRONTEND_URL="your frontend url"
@@ -136,7 +136,8 @@ VITE_EMAILJS_TEMPLATE_ID=""
 VITE_EMAILJS_PUBLIC_KEY=""
 
 Backend Environment Variables
-MONGO_URI_Production="mongodb+srv://dharitapatel:Dsku_098311@cluster.brenp8y.mongodb.net/healthcare?retryWrites=true&w=majority"
+
+MONGO_URI_Production=""
 JWT_SECRET="Beauty"
 PORT="3001" 
 MONGO_URI=""
