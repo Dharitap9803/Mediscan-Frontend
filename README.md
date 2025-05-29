@@ -84,13 +84,17 @@ npm install
 
 3. Create a .env file in the frontend directory and add the following environment variables:
 Copy
-VITE_BACKEND_URL="https://healthcare-backend-svww.onrender.com"
-VITE_FRONTEND_URL="http://localhost:5173"
-VITE_EMAILJS_SERVICE_ID="service_ntqm5no"
-VITE_EMAILJS_TEMPLATE_ID="template_5qdjk0f"
-VITE_EMAILJS_PUBLIC_KEY="Ed7PdNtgXoAo16pmT"
+VITE_BACKEND_URL="Your backend url"
 
-4. Start the development server:
+VITE_FRONTEND_URL="your frontend url"
+
+VITE_EMAILJS_SERVICE_ID=""
+
+VITE_EMAILJS_TEMPLATE_ID=""
+
+VITE_EMAILJS_PUBLIC_KEY=""
+
+5. Start the development server:
 npm start
 
 Backend Setup
@@ -101,10 +105,13 @@ cd server
 npm install
 
 3.Create a .env file in the backend directory and add the following environment variables:
-MONGO_URI_Production="mongodb+srv://dharitapatel:Dsku_098311@cluster.brenp8y.mongodb.net/healthcare?retryWrites=true&w=majority"
-JWT_SECRET="Beauty"
-PORT="3001" 
-MONGO_URI="mongodb://localhost:27017/Dharita"
+MONGO_URI_Production=""
+
+JWT_SECRET=""
+
+PORT="" 
+
+MONGO_URI=""
 
 4.Start the backend server:
 npm start
@@ -122,17 +129,17 @@ const response = await updateHealthData(userId, updatedData);
 Environment Variables
 
 Frontend Environment Variables
-VITE_BACKEND_URL="https://healthcare-backend-svww.onrender.com"
-VITE_FRONTEND_URL="http://localhost:5173"
-VITE_EMAILJS_SERVICE_ID="service_ntqm5no"
-VITE_EMAILJS_TEMPLATE_ID="template_5qdjk0f"
-VITE_EMAILJS_PUBLIC_KEY="Ed7PdNtgXoAo16pmT"
+VITE_BACKEND_URL=""
+VITE_FRONTEND_URL=""
+VITE_EMAILJS_SERVICE_ID=""
+VITE_EMAILJS_TEMPLATE_ID=""
+VITE_EMAILJS_PUBLIC_KEY=""
 
 Backend Environment Variables
 MONGO_URI_Production="mongodb+srv://dharitapatel:Dsku_098311@cluster.brenp8y.mongodb.net/healthcare?retryWrites=true&w=majority"
 JWT_SECRET="Beauty"
 PORT="3001" 
-MONGO_URI="mongodb://localhost:27017/Dharita"
+MONGO_URI=""
 
 Code Explanation
 Frontend
