@@ -326,14 +326,15 @@ This system bridges individual health tracking with centralized monitoring to en
 ## Screenshots
 
 ### Home Page
-![img alt]([path/to/homepage-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/mainpage.jpeg))
+![Home Page](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/mainpage.jpeg?raw=true)
 
-### BloodPressureAnalaysis
-![img alt]([path/to/dashboard-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/bloodpressureanalysis.jpg))
+### Blood Pressure Analysis
+![Blood Pressure Analysis](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/bloodpressureanalysis.jpg?raw=true)
 
-### DiabetesAnalysis
-![img alt]([path/to/health-analysis-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/Diabetesanalysis.jpg))
+### Diabetes Analysis
+![Diabetes Analysis](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/Diabetesanalysis.jpg?raw=true)
 
-### Flowdiagram
-![img alt][(path/to/report-analyzer-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/flowdiagram.jpeg))
+### Flow Diagram
+![Flow Diagram](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/flowdiagram.jpeg?raw=true)
+
 
