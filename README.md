@@ -204,30 +204,77 @@ MONGO_URI=""
   Enables registered users to securely end their session and protect personal data.
 
 
-Backend
-API Endpoints:
-/api/users: Handles creating, retrieving, updating, and deleting users.
-/api/health: Manages health data and analysis.
-/api/admin: Provides admin-specific operations such as retrieving all health data and managing user roles.
-Admin Features
+## Backend
 
-User Management
-User List: Displays a table with columns for Name, Email, Sign-Up Date, Last Logged-In Date, Role, and Number of Health Reports.
-Actions: Each row has buttons for deleting and disabling user accounts.
+### API Endpoints
 
-Health Data Management
-Health Data List: Displays a list of all health data with filters for category, status, and date.
+- **`/api/users`**  
+  Handles creating, retrieving, updating, and deleting user data.
 
-Update Status: Allows admins to change the status of health data (e.g., pending, in-progress, resolved).
+- **`/api/health`**  
+  Manages all health-related data entries and performs analysis.
 
-Detailed View: Provides a detailed view of each health data, including images and tags.
+- **`/api/admin`**  
+  Provides admin-specific operations such as retrieving all health records and managing user roles.
 
-Dashboard
-Reports per Month: A bar graph displaying the number of reports per month for the past 6 months.
+---
 
-Reports by Type: A doughnut graph displaying the distribution of report types (e.g., Blood Pressure, Diabetes).
+### Admin Features
 
-Case Status: Three small sections (green, yellow, red) displaying the number of unresolved cases (red), cases under progress (yellow), and resolved cases (green).
+#### User Management
 
-About
-Health Tracker is a web application designed to allow users to monitor and manage their health through detailed, data-driven insights. The application includes a public-facing frontend for tracking and viewing health metrics and an admin panel for managing reports and users.
+- **User List**  
+  Displays a table of users with the following columns:  
+  - Name  
+  - Email  
+  - Sign-Up Date  
+  - Last Logged-In Date  
+  - Role  
+  - Number of Health Reports  
+
+- **Actions**  
+  Each user row includes buttons to:
+  - Delete User  
+  - Disable Account  
+
+---
+
+#### Health Data Management
+
+- **Health Data List**  
+  Displays all health reports with filtering options based on:
+  - Category  
+  - Status  
+  - Date  
+
+- **Update Status**  
+  Admins can update the status of health data (e.g., `Pending`, `In-Progress`, `Resolved`).
+
+- **Detailed View**  
+  Shows comprehensive information about each report, including:
+  - Uploaded images  
+  - Associated tags  
+
+#### Admin Dashboard
+
+- **Reports per Month**  
+  A bar chart visualizing the number of submitted reports for the past 6 months.
+
+- **Reports by Type**  
+  A doughnut chart illustrating the distribution of report categories (e.g., Blood Pressure, Diabetes).
+
+- **Case Status Overview**  
+  Displays the current status of cases in three categories:
+  - Red: Unresolved Cases  
+  - Yellow: Cases Under Progress  
+  - Green: Resolved Cases  
+
+## About the Project
+
+**Health Tracker** is a web-based application built to help users actively monitor and manage their health through comprehensive, data-driven insights.  
+It includes:
+
+- A **public-facing frontend** for users to track, upload, and view health metrics.
+- A **dedicated admin panel** to review submitted reports, manage users, and oversee platform-wide health trends.
+
+This system bridges individual health tracking with centralized monitoring to ensure users get real-time, actionable feedback while admins maintain system integrity and insights.
