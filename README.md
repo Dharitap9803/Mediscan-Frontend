@@ -142,45 +142,67 @@ JWT_SECRET="Beauty"
 PORT="3001" 
 MONGO_URI=""
 
-Code Explanation
-Frontend
-Home Page: Displays a welcome message along with an overview of the Health Tracker features.
+## Code Explanation
 
-User Profile Page: Allows users to view and update their personal information.
+### Frontend
 
-Dashboard Page: Displays an overview of key health metrics using circular progress bars and health cards.
+- **Home Page**  
+  Displays a welcome message along with an overview of the Health Tracker features.
 
-Step Tracker Page: Shows user's step data for daily, weekly, and monthly periods.
+- **User Profile Page**  
+  Allows users to view and update their personal information.
 
-Heartbeat Rate Page: Monitors pulse readings with daily/weekly/monthly graphs.
+- **Dashboard Page**  
+  Shows key health metrics using circular progress bars and interactive health cards.
 
-Sleep Hours Page: Tracks sleep duration trends with detailed analysis.
+- **Step Tracker Page**  
+  Visualizes user's step data across daily, weekly, and monthly timelines.
 
-Stress Level Page: Displays stress patterns and critical highs using visual graphs.
+- **Heartbeat Rate Page**  
+  Monitors pulse readings with dynamic graphs for daily, weekly, and monthly views.
 
-Calorie Burn Page: Shows calories burned over time and includes recommendations for improved fitness planning.
+- **Sleep Hours Page**  
+  Tracks trends in sleep duration and offers detailed insights.
 
-Blood Pressure Page: Accepts systolic/diastolic input with contextual data like sleep and stress.
+- **Stress Level Page**  
+  Displays stress levels using visual graphs and highlights critical patterns.
 
-Diabetes Page: Takes age, height, weight, and sugar levels to calculate BMI and categorize diabetes stage.
+- **Calorie Burn Page**  
+  Shows calories burned over time and provides tailored fitness recommendations.
 
-Weight & Height Page: Tracks BMI, weight fluctuation, and health classification.
+- **Blood Pressure Page**  
+  Collects systolic/diastolic inputs and correlates them with sleep and stress metrics.
 
-Blood Oxygen Page: Analyses oxygen saturation levels with visual patterns.
+- **Diabetes Page**  
+  Takes user’s age, height, weight, and sugar levels to compute BMI and classify diabetes stage.
 
-Data Analysis Page: Provides combined summary of all tracked metrics with graphs.
+- **Weight & Height Page**  
+  Tracks BMI, weight fluctuation, and provides health classification insights.
 
-Upload Page: Allows users to manually upload text-based or structured input data.
+- **Blood Oxygen Page**  
+  Analyzes oxygen saturation levels and presents trends using graphs.
 
-Medical Report Upload & Analyzer Page: Users can upload scanned medical reports in image or PDF format.
+- **Data Analysis Page**  
+  Offers a combined summary of all health metrics with interactive visualizations.
 
-Profile Page: Displays user's personal, general, and medical details with editable sections.
+- **Upload Page**  
+  Enables users to manually upload health data in text or structured format.
 
-Contact Us Page: Offers direct communication for user queries, website feedback, or issues.
+- **Medical Report Upload & Analyzer Page**  
+  Allows uploading of scanned medical reports (image or PDF) for automated analysis.
 
-Authentication System: Only registered users can access all features; new users can access limited pages.
+- **Profile Page**  
+  Displays user's personal, general, and medical information in editable form.
 
-Logout Feature: Registered users can securely log out to end their session and protect data access.
+- **Contact Us Page**  
+  Provides a communication channel for feedback, queries, or issue reporting.
+
+- **Authentication System**  
+  Grants full feature access only to registered users; new users have limited access.
+
+- **Logout Feature**  
+  Enables registered users to securely end their session and protect personal data.
+
 
 Backend
 API Endpoints:
