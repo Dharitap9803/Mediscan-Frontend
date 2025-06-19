@@ -1,6 +1,6 @@
 # Health Tracker
 
-Health Tracker is a sophisticated website platform designed to empower individuals to monitor and manage their health through detailed, data-driven insights. This application offers a centralized dashboard that consolidates vital health metrics such as steps, calories burned, workout duration, diabetes level, blood pressure, blood oxygen, stress, sleep, and more.
+Health Tracker is a sophisticated website platform designed to empower individuals to monitor and manage their health through detailed, data-driven insights. This dekstop application offers a centralized dashboard that consolidates vital health metrics such as steps, calories burned, workout duration, diabetes level, blood pressure, blood oxygen, stress, sleep, and more.
 
 ## Live Demo
 
@@ -322,3 +322,18 @@ It includes:
 - A **dedicated admin panel** to review submitted reports, manage users, and oversee platform-wide health trends.
 
 This system bridges individual health tracking with centralized monitoring to ensure users get real-time, actionable feedback while admins maintain system integrity and insights.
+
+## Screenshots
+
+### Home Page
+![img alt]([path/to/homepage-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/mainpage.jpeg))
+
+### BloodPressureAnalaysis
+![img alt]([path/to/dashboard-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/bloodpressureanalysis.jpg))
+
+### DiabetesAnalysis
+![img alt]([path/to/health-analysis-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/Diabetesanalysis.jpg))
+
+### Flowdiagram
+![img alt][(path/to/report-analyzer-image.png](https://github.com/Dharitap9803/Mediscan-Frontend/blob/3358f1e67b74c77d4070ed118dbf1db846e90101/src/assets/images/flowdiagram.jpeg))
+
