@@ -64,83 +64,127 @@ You can view the live demo of the application [here](https://frontend-smoky-gamm
 
 ## Setup
 
-### Frontend Setup
+## Frontend Setup
 
-1. Clone the repositories:
-Frontend:
+### 1. Clone the repositories:
 
-git clone[ https://github.com/Dharitap9803/frontend.git](https://github.com/Dharitap9803/frontend)
+**Frontend:**
+```bash
+git clone https://github.com/Dharitap9803/frontend.git
 cd frontend
 npm install
+```
 
-Backend:
-
-git clone [https://github.com/Dharitap9803/backend.git](https://github.com/Dharitap9803/backend)
+**Backend:**
+```bash
+git clone https://github.com/Dharitap9803/backend.git
 cd backend
 npm install
+```
 
-2.Install dependencies:
+---
+
+### 2. Install dependencies:
+```bash
 npm install
+```
 
-3. Create a .env file in the frontend directory and add the following environment variables:
-4. 
+---
+
+### 3. Create a `.env` file in the `frontend` directory and add the following environment variables:
+
+```env
 VITE_BACKEND_URL="Your backend url"
-
-VITE_FRONTEND_URL="your frontend url"
-
+VITE_FRONTEND_URL="Your frontend url"
 VITE_EMAILJS_SERVICE_ID=""
-
 VITE_EMAILJS_TEMPLATE_ID=""
-
 VITE_EMAILJS_PUBLIC_KEY=""
+```
 
-5. Start the development server:
+---
+
+### 4. Start the development server:
+
+```bash
 npm start
+```
 
-Backend Setup
-1.Navigate to the backend directory:
+---
+
+## Backend Setup
+
+### 1. Navigate to the backend directory:
+
+```bash
 cd server
+```
 
-2.Install dependencies:
+---
+
+### 2. Install dependencies:
+
+```bash
 npm install
+```
 
-3.Create a .env file in the backend directory and add the following environment variables:
+---
+
+### 3. Create a `.env` file in the `backend` directory and add the following environment variables:
+
+```env
 MONGO_URI_Production=""
-
 JWT_SECRET=""
-
 PORT="" 
-
 MONGO_URI=""
+```
 
-4.Start the backend server:
+---
+
+### 4. Start the backend server:
+
+```bash
 npm start
+```
 
-Update Health Data
+---
 
-Endpoint: /api/health
-Method: PUT
-Description: Updates health data for a user.
-Function: updateHealthData
+## Update Health Data
 
-Usage:
+- **Endpoint:** `/api/health`  
+- **Method:** `PUT`  
+- **Description:** Updates health data for a user.  
+- **Function:** `updateHealthData`  
+
+**Usage Example:**
+
+```javascript
 const updatedData = { steps: 5000, calories: 2000 };
 const response = await updateHealthData(userId, updatedData);
-Environment Variables
+```
 
-Frontend Environment Variables
+---
+
+## Environment Variables
+
+### Frontend Environment Variables
+
+```env
 VITE_BACKEND_URL=""
 VITE_FRONTEND_URL=""
 VITE_EMAILJS_SERVICE_ID=""
 VITE_EMAILJS_TEMPLATE_ID=""
 VITE_EMAILJS_PUBLIC_KEY=""
+```
 
-Backend Environment Variables
+### Backend Environment Variables
 
+```env
 MONGO_URI_Production=""
-JWT_SECRET="Beauty"
-PORT="3001" 
+JWT_SECRET=""
+PORT=""
 MONGO_URI=""
+```
+
 
 ## Code Explanation
 
