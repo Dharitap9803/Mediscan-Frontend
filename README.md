@@ -1,6 +1,6 @@
 # Health Tracker
 
-Health Tracker is a sophisticated website platform designed to empower individuals to monitor and manage their health through detailed, data-driven insights. This dekstop application offers a centralized dashboard that consolidates vital health metrics such as steps, calories burned, workout duration, diabetes level, blood pressure, blood oxygen, stress, sleep, and more.
+Health Tracker is a website platform designed to empower individuals to monitor and manage their health through detailed, data-driven insights. This dekstop application offers a centralized dashboard that consolidates vital health metrics such as steps, calories burned, workout duration, diabetes level, blood pressure, blood oxygen, stress, sleep, and more.
 
 ## Live Demo
 
